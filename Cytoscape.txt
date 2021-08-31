@@ -1,0 +1,17 @@
+Li_et_al_2021_Frontiers_in_Oncology
+
+Initial notes
+
+These script will generate some of the key results reported in Li et al 2021 (Frontiers in Oncology).
+
+ClueGO+CluePedia tool by using Cytoscape software(Download from https://cytoscape.org/)(1).All file inputs needed to perform the GO analysis using the data DEGs, available in the file 'differentially expressed genes.xlsx' which was published as a supplementary to Li_et_al_2021.Sets of identifiers of interest can be directly uploaded in text format, pasted in a text field or interactively derived from gene networks. Experimental data can be normalized and visualized next to the nodes using adjustable thresholds. Filter methods based on the expression level, standard deviation and the number of missing values are available.CluePedia visualizes custom correlation weights as edges on the network.This enrichment can be used within ClueGO networks of pathways. Another original feature of CluePedia expands ClueGO terms into nested networks. Like this, a pathway can be investigated in detail to reveal how known gene interrelations are modulated within the experimental context used, and which could be the newly associated genes(2).
+
+CluePedia automatically extracts the cellular location of markers from GO terms and maps it on pre-defined cellular compartments. Based on this information, a pathway-like view can be created using the Cerebral plugin layout. If for some markers no cellular location is found, they will be placed into a ¡®no annotation found¡¯ layer. The provided cellular compartments can be easily modified and extended by the user. The network and the pathway views can easily be switched(2).
+
+We hope you will find our scripts useful. If you encounter any problems with the script please contact Dr Bai, on bwddcgzl@fmmu.edu.cn or check Bai's github for possible script updates:https://github.com/bwddcgzl/EC-STAT5A.git
+
+Citation
+1.Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks
+Genome Research 2003 Nov; 13(11):2498-504
+2.Gabriela B,J¨¦reme G,Bernhard M,CluePedia Cytoscape plugin: pathway insights using integrated experimental and in silico data. Bioinformatics. 2013 Mar 1; 29(5): 661¨C663.
+
